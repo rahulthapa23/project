@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Product</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<h1>product List</h1>
+
+	<table border="1" style="border-collapse:collapse;">
+		
+		<tr>
+			
+			<th>Name</th>
+			<th>Model</th>
+			<th>color</th>
+			<th>Storage</th>
+			<th>Price</th>
+
+		</tr>
+		<tr>
+			<td id="a"></td>
+			<td id="b"></td>
+			<td id="c"></td>
+			<td id="d"></td>
+			<td id="e"></td>
+		</tr>
+
+		<tr>
+			<td id="aa"></td>
+			<td id="bb"></td>
+			<td id="cc"></td>
+			<td id="dd"></td>
+			<td id="ee"></td>
+		</tr>
+		<tr>
+			<td id="aaa"></td>
+			<td id="bbb"></td>
+			<td id="ccc"></td>
+			<td id="ddd"></td>
+			<td id="eee"></td>
+		</tr>
+
+		<tr>
+			<td id="a4"></td>
+			<td id="b4"></td>
+			<td id="c4"></td>
+			<td id="d4"></td>
+			<td id="e4"></td>
+		</tr>
+
+		<tr>
+			<td id="a5"></td>
+			<td id="b5"></td>
+			<td id="c5"></td>
+			<td id="d5"></td>
+			<td id="e5"></td>
+		</tr>
+
+	</table>
+
+	<script>
+		let product={
+			Name:"Nokia",
+			Model:"c13",
+			color:"Red",
+			storage:"16GB",
+			Price:13000
+		};
+		document.getElementById("a").innerHTML=product.Name;
+		document.getElementById("b").innerHTML=(product.Model);
+		document.getElementById("c").innerHTML=(product.color);
+		document.getElementById("d").innerHTML=(product.storage);
+		document.getElementById("e").innerHTML=(product.Price);
+
+
+		let product1={
+			Name:"Redmi",
+			Model:"c10",
+			color:"Black",
+			storage:"64GB",
+			Price:15000
+		};
+		document.getElementById("aa").innerHTML=(product1.Name);
+		document.getElementById("bb").innerHTML=(product1.Model);
+		document.getElementById("cc").innerHTML=(product1.color);
+		document.getElementById("dd").innerHTML=(product1.storage);
+		document.getElementById("ee").innerHTML=(product1.Price);
+
+		let product2={
+			Name:"Iphone",
+			Model:"10",
+			color:"Silver",
+			storage:"218GB",
+			Price:150000
+		};
+		document.getElementById("aaa").innerHTML=(product2.Name);
+		document.getElementById("bbb").innerHTML=(product2.Model);
+		document.getElementById("ccc").innerHTML=(product2.color);
+		document.getElementById("ddd").innerHTML=(product2.storage);
+		document.getElementById("eee").innerHTML=(product2.Price);
+
+		let product3={
+			Name:"Samsung",
+			Model:"A10",
+			color:"Blue",
+			storage:"128GB",
+			Price:18000
+		};
+		document.getElementById("a4").innerHTML=(product3.Name);
+		document.getElementById("b4").innerHTML=(product3.Model);
+		document.getElementById("c4").innerHTML=(product3.color);
+		document.getElementById("d4").innerHTML=(product3.storage);
+		document.getElementById("e4").innerHTML=(product3.Price);
+
+		let product4={
+			Name:"Poco",
+			Model:"M10",
+			color:"White",
+			storage:"164GB",
+			Price:20000
+		};
+		document.getElementById("a5").innerHTML=(product4.Name);
+		document.getElementById("b5").innerHTML=(product4.Model);
+		document.getElementById("c5").innerHTML=(product4.color);
+		document.getElementById("d5").innerHTML=(product4.storage);
+		document.getElementById("e5").innerHTML=(product4.Price);
+
+
+	</script>
+
+
+</body>
+</html>
