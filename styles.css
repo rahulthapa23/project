@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.hh{
+  color:red;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e26;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.container > div {
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  color: #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.container p {
+  font-size: 16px;
+}
+
+.container button {
+  margin-top: 15px;
+  padding: 10px 24px;
+  background-color: #1e1e26;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.container button:hover {
+  background-color: #333;
+}
+.php {
+  background-color: #f8c8d0;
+}
+
+.jquery {
+  background-color: #fff6b3;
+}
+
+.java {
+  background-color: #f8f1eb;
+}
+
+.cpp {
+  background-color: #d3f3eb;
+}
+
+.w3css {
+  background-color: #b3e5e5;
+}
+
+.bootstrap {
+  background-color: #f0f0f0;
+}
