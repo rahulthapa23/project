@@ -3,14 +3,10 @@
   margin: 0;
   padding: 0;
 }
-.hh{
-  color:red;
-  text-align: center;
-}
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #1e1e26;
+  background-color: black;
   padding: 20px;
 }
 
@@ -24,7 +20,7 @@ body {
   border-radius: 12px;
   padding: 30px 20px;
   text-align: center;
-  color: #000;
+  color: black;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -40,38 +36,39 @@ body {
 .container button {
   margin-top: 15px;
   padding: 10px 24px;
-  background-color: #1e1e26;
-  color: #fff;
+  background-color: black;
+  color: white;
   border: none;
   border-radius: 25px;
-  cursor: pointer;
   font-size: 14px;
   transition: background 0.3s;
 }
 
 .container button:hover {
-  background-color: #333;
+  background-color: blue;
 }
+
 .php {
-  background-color: #f8c8d0;
+  background-color: palevioletred;
 }
 
 .jquery {
-  background-color: #fff6b3;
+  background-color: lightyellow;
 }
 
 .java {
-  background-color: #f8f1eb;
+  background-color: whitesmoke;
 }
 
 .cpp {
-  background-color: #d3f3eb;
+  background-color: cadetblue;
 }
 
 .w3css {
-  background-color: #b3e5e5;
+  background-color: lavender;
 }
 
 .bootstrap {
-  background-color: #f0f0f0;
+  background-color: ivory;
 }
+
